@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+<body>
+    <h1> 하이퍼관려태그 : a(anchor) 태그</h1>    
+
+    <pre>
+        a 태그는 현재 html문서와 다른 html 문서를 연결해서
+        페이지 이동을 할 수 있게 하는 기능을 제공
+        이때, a태그로 감싸진 문자열 == 하이퍼 링크
+
+
+    </pre>
+
+
+    <h2> a태그를 이용한 하이퍼링크 관려</h2>
+
+    <u1>
+        
+
+       <li>
+        <a href="01_글자관련태그.html">01_관련태그</a>
+
+       </li>
+       <li>
+         <a href="02_목록관련태그.html" target="_blank"></a>
+
+       </li>
+            target 속성 : 연결된 문서를 어디에서 열 것인지 지정하는 속성
+            기본값 : 같은 행
+            blank : 새탭 == 비어있는 탭
+
+
+
+            <li>
+                <a href="https://velog.io/@eee595398/23.07.26-TIL-%EC%9E%90%EB%B0%94-OOP"   target="_blank" >벨로그 이동</a>
+
+            </li>
+
+            <hr>
+           
+    </u1>
+
+    <li>  이미지 클릭시 페이지 이동 <br>
+        <a href="https://velog.io/@eee595398/23.07.26-TIL-%EC%9E%90%EB%B0%94-OOP" > 
+            <img src ="./images/animals/slava-auchynnikau-181OG20HNuo-unsplash.jpg" width = "300px"> </a>
+
+    </li>
+
+
+    <hr>
+
+    <h2> 한 페이지 내에서 이동하기</h2>
+
+    <u1 id="list">
+        <li><a href="#animal1">동물1</a></li>
+        <li><a href="#animal2">동물2</a></li>
+        <li><a href="#animal3">동물3</a></li>
+    </u1>
+
+    <h3 id = "animal1">동물1</h3>
+    <img src = "images/animals/slava-auchynnikau-181OG20HNuo-unsplash.jpg" width = "300px">
+    <a href ="#list">목록으로 이동</a>
+
+    
+    <h3 id = "animal2">동물2</h3>
+    <img src = "images/animals/다운로드.jpg">
+    <a href ="#list">목록으로 이동</a>
+
+    
+    <h3 id = "animal3">동물3</h3>
+    <img src = "images/animals/slava-auchynnikau-181OG20HNuo-unsplash.jpg" width = "300px">
+    <a href ="#list">목록으로 이동</a>
+</body>
+</html>
